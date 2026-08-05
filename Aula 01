@@ -1,0 +1,19 @@
+Aula 01, realização das listas de revisão.
+
+1.Seja uma lista de inteiros, mostre apenas os números pares usando list comprehension.
+lista= [0,1,2,3,4,5,6]
+[x for x in lista if x%2==0]
+[0, 2, 4, 6]
+
+2. Crie uma lista com os quadrados de todos os números pares de 1 a 20 usando list comprehension.
+lista= [0,1,2,3,4,5,6, 7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+[x**2 for x in lista]
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100, 121, 144, 169, 196, 225, 256, 289, 324, 361, 400]
+
+3.Dada uma lista de palavras, ordene-a pelo tamanho das palavras em ordem crescente, utilizando sorted() com a cláusula key=
+nomes ='ana liza maria felipe tiago'.split()
+nomes.sort(key=len)
+nomes
+['ana', 'liza', 'maria', 'tiago', 'felipe']
+
+4. Dada uma lista de palavras, ordene-a pelo número de vogais presentes em cada palavra.
