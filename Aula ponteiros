@@ -1,0 +1,22 @@
+int* x  declarar um ponteiro 
+malloc -- alocar memória, pega uma memoria livre e passa o endereço para um espaço.
+uso um ponteiro usando *,
+em py tudo são ponteiros, mas todos são de alto nivel, mas para ver o que acontece por baixo dos panos, é necessário programar em c.
+paulo feofiloff -- algoritmos em linguagem c.
+
+
+struct cel-- um ponteiro para o seguinte.
+-> sempre que ver flechinha, sifnifica um ponteiro.
+
+pegue o vetor e transforme numa lista 1 2 3
+em ponteiros precisamos inserir ao contrario...  3 2 1.
+
+Listas ligadas---
+Cabeça na lista, serve para representar que não teremos listas vazias, ele pode não ter conteúdo na cabeça, mas o código não precisa ficar perguntando se a lista esta vazia
+retirar um item da lista e add novamente, é nescessário salvar antes mandar ao sistema operacional.
+estrudar como  mudar um ponteiro de lugar.
+
+
+pesquisar site black hat
+
+
